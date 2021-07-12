@@ -1,0 +1,19 @@
+<mvc:View
+    controllerName="sample.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+                    <Text text="Sachin" class="animate__animated animate__wobble"/>
+                        <Text text="Arnab"/>
+                        <Text text="Vinitha"/>
+				<Text text = "Tharun Kumar" ></Text>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
